@@ -1,0 +1,17 @@
+.shoes-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns in each row */
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .shoe-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .shoe-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
