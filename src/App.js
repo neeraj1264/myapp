@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
-import ShoesSection from './components/ShoesSection'
+import HeroSection from './components/hero/HeroSection'
+import ShoesSection from './components/shoes/ShoesSection'
 
 function App() {
   return (
