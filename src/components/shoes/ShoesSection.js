@@ -1,5 +1,5 @@
 import React from 'react';
-import Shoesdata from './Shoesdata.js';
+import Shoesdata from './Shoesdata';
 import './ShoesSection.css'
 const ShoesSection = () => {
   return (

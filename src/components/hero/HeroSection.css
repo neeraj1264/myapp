@@ -1,10 +1,10 @@
 /* Hero Section Container */
 .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #abcad7;
   }
   
   /* Hero Content Styles */

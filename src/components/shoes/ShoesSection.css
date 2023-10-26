@@ -1,7 +1,8 @@
 .shoes-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four columns in each row */
-    gap: 20px; /* Adjust the gap as needed */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    background-color: gray;
   }
   
   .shoe-card {
