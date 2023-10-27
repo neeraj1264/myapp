@@ -3,10 +3,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
   background-color: #abcad7;
   }
-  
+  .text-light{
+    padding-left: 5rem;
+  }
+  .btn{
+    margin-left: 5rem;
+  }
+  .d-block{
+    height: 12rem;
+    margin-left: 10rem;
+
+  }
+  .carousel{
+    background-color: orangered;
+  }
   /* Hero Content Styles */
   .hero-content {
     flex: 1;

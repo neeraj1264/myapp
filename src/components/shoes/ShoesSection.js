@@ -2,7 +2,8 @@ import React from 'react';
 import Shoesdata from './Shoesdata';
 import './ShoesSection.css'
 const ShoesSection = () => {
-  return (
+  return (<>
+  <div className='header'>Category By Brand</div>
     <div className="shoes-section">
       {Shoesdata.map((shoe) => (
         <div className="shoe-card" key={shoe.id}>
@@ -12,7 +13,8 @@ const ShoesSection = () => {
         </div>
       ))}
     </div>
-  );
+    </>
+    );
 };
 
 export default ShoesSection;

@@ -1,18 +1,26 @@
 .shoes-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 20px; 
+    gap: 10px; 
     background-color: gray;
   }
-  
+  .header{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+  }
   .shoe-card {
     border: 1px solid #ddd;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
+    background-color: wheat;
+    height: 13rem;
+    margin: 1rem;
   }
   
   .shoe-card img {
     max-width: 100%;
-    height: auto;
+    height: 6rem;
   }
   
