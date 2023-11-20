@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myapp/static/css/main.19247b9b.css",
+    "main.js": "/myapp/static/js/main.25ad0963.js",
+    "static/js/787.d3befce1.chunk.js": "/myapp/static/js/787.d3befce1.chunk.js",
+    "static/media/puma_banner.png": "/myapp/static/media/puma_banner.91a8fda35287275dcfa5.png",
+    "index.html": "/myapp/index.html",
+    "main.19247b9b.css.map": "/myapp/static/css/main.19247b9b.css.map",
+    "main.25ad0963.js.map": "/myapp/static/js/main.25ad0963.js.map",
+    "787.d3befce1.chunk.js.map": "/myapp/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19247b9b.css",
+    "static/js/main.25ad0963.js"
+  ]
+}
