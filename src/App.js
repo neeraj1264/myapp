@@ -10,8 +10,8 @@ function App() {
    <BrowserRouter>
    <Navbar/>
    <Routes>
-   <Route path="/myapp" element={<HeroSection/>} />
-{/* <Route path="/:id" element={<ShoeDetail/>} /> */}
+   <Route path="/" element={<HeroSection/>} />
+<Route path="/:id" element={<ShoeDetail/>} />
 </Routes>
 </BrowserRouter>
    </>
