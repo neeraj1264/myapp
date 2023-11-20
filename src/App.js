@@ -1,16 +1,22 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar'
-import HeroSection from './components/hero/HeroSection'
-import ShoesSection from './components/shoes/ShoesSection'
+import ShoeDetail from './components/shoes/ShoeDetail';
+import HeroSection from './components/hero/HeroSection';
 
 function App() {
   return (
    <>
-<Navbar/>
-<HeroSection/>
-<ShoesSection/>
+   <BrowserRouter>
+   <Navbar/>
+   <Routes>
+   <Route path="/" element={<HeroSection/>} />
+<Route path="/:id" element={<ShoeDetail/>} />
+</Routes>
+</BrowserRouter>
    </>
   );
 }
 
 export default App;
+

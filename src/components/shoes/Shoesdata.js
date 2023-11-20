@@ -1,17 +1,16 @@
 const Shoesdata = [
-    { id: 1, name: 'Shoe 1', price: '$50', image: './shoe.png' },
-    { id: 2, name: 'Shoe 2', price: '$60', image: './shoe.png' },
-    { id: 3, name: 'Shoe 3', price: '$50', image: './shoe.png' },
-    { id: 4, name: 'Shoe 4', price: '$60', image: './shoe.png' },
-    { id: 5, name: 'Shoe 5', price: '$50', image: './shoe.png' },
-    { id: 6, name: 'Shoe 6', price: '$60', image: './shoe.png' },
-    { id: 7, name: 'Shoe 7', price: '$50', image: './shoe.png' },
-    { id: 8, name: 'Shoe 8', price: '$60', image: './shoe.png' },
-    { id: 9, name: 'Shoe 9', price: '$50', image: './shoe.png' },
-    { id: 10, name: 'Shoe 10', price: '$60', image: './shoe.png' },
-    { id: 11, name: 'Shoe 11', price: '$50', image: './shoe.png' },
-    { id: 12, name: 'Shoe 12', price: '$60', image: './shoe.png' },
-    // Add more shoe data
+    { id: 1, brand: 'Shoes', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/shoe.png' },
+    { id: 2, brand: 'Nike', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/nike.png' },
+    { id: 3, brand: 'Addidas', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/addidas.png' },
+    { id: 4, brand: 'Puma', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/puma.png' },
+    { id: 5, brand: 'Shoes', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/shoe.png' },
+    { id: 6, brand: 'Nike', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/nike.png' },
+    { id: 7, brand: 'Addidas', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/addidas.png' },
+    { id: 8, brand: 'Puma', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/puma.png' },
+    { id: 9, brand: 'Shoes', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/shoe.png' },
+    { id: 10, brand: 'Nike', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/nike.png' },
+    { id: 11, brand: 'Addidas', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/addidas.png' },
+    { id: 12, brand: 'Puma', type: 'Sneaker for men', price: '499', mrp: '1050', image: './shoe/puma.png' },
   ];
   
   export default Shoesdata;

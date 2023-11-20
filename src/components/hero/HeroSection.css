@@ -12,15 +12,23 @@
   .btn{
     margin-left: 5rem;
   }
-  .d-block{
-    height: 12rem;
-    margin-left: 10rem;
-
-  }
-  .carousel{
-    background-color: orangered;
-  }
-  /* Hero Content Styles */
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 420px;
+  padding-top: 48px;
+}
+.carousel-control-prev{
+  background-color: black;
+  margin: 9rem 0rem 8rem 0rem;
+  opacity: .6;
+}
+.carousel-control-next{
+  background-color: black;
+  margin: 9rem 0rem 8rem 0rem;
+  opacity: .6;
+}
   .hero-content {
     flex: 1;
     text-align: center;
@@ -45,6 +53,7 @@
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s;
+    margin-top: 3rem;
   }
   
   .cta-button:hover {
